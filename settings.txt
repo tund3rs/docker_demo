@@ -1,0 +1,12 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'db_mysql',
+        'USER': 'user',
+        'PASSWORD': '1234',
+        'HOST': 'db',   # Or an IP Address that your DB is hosted on
+        # 'HOST' : '127.0.0.1',
+        'PORT': '3306',
+    }
+}
+
